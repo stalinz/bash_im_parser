@@ -1,0 +1,10 @@
+package quoter;
+
+public class BashQuoter implements IQuoter {
+
+	@Override
+	public static  String getQuote(int num) {
+		return BashParser.parseQuote(num);
+	}
+
+}

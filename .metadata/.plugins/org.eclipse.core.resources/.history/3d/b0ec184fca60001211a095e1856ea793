@@ -1,0 +1,12 @@
+package quoter;
+
+public class BashParser {
+
+	private static String BASE_URL_TO_QUOTE = "http://bash.im/quote/";
+	private static String XPATH_TO_QUOTE = "//*[@id=\"body\"]/div[3]/div[2]";
+
+	public static String parseQuote(int num) {
+		String result = null;
+		return result;
+	}
+}

@@ -1,0 +1,13 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class BashParserTest {
+
+	@Test
+	public void testParseQuote() {
+		fail("Not yet implemented");
+	}
+
+}

@@ -1,0 +1,21 @@
+package quoter;
+
+import java.io.ObjectInputStream.GetField;
+
+import web.SingleWebClient;
+
+import com.gargoylesoftware.htmlunit.WebClient;
+
+public class BashParser {
+
+	private static String BASE_URL_TO_QUOTE = "http://bash.im/quote/";
+	private static String XPATH_TO_QUOTE = "//*[@id=\"body\"]/div[3]/div[2]";
+
+	public static String parseQuote(int num) {
+		String result = null;
+		WebClient client = SingleWebClient.getInstance();
+		String url = BASE_URL_TO_QUOTE + num;
+		HtmlPage page = client.getPage(url);
+		return result;
+	}
+}

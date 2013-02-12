@@ -1,0 +1,8 @@
+package quoter;
+
+public class BashParser {
+	public static String parseQuote(int num) {
+		String result = null;
+		return result;
+	}
+}

@@ -1,0 +1,8 @@
+1358442618332	Rename package 'database'
+1358443595380	Extract method 'quoteIsExist'
+1358443857812	Extract constant 'FIRST_QUOTE'
+1358444306162	Extract local variable 'quoterInstance'
+1358444325494	Extract method 'randomQuote'
+1358444448101	Extract constant 'MAX_QUOTE_NUMBER'
+1358444764268	Extract method 'print'
+1358444867856	Extract method 'getInt'

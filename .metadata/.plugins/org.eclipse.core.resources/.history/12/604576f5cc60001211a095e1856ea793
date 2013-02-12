@@ -1,0 +1,31 @@
+package console;
+
+import java.util.Random;
+
+import org.apache.commons.lang.math.RandomUtils;
+
+import quoter.BashQuoter;
+
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		if (args.length > 0) {
+
+		} else {
+			BashQuoter quoterInstance = BashQuoter.getInstance();
+			System.out.println(randomQuote(quoterInstance));
+		}
+	}
+
+	private static String randomQuote(BashQuoter quoterInstance) {
+		String quote = null;
+		do{ 
+			quoterInstance.getQuote(
+				RandomUtils.nextInt(10000000));
+			}while (quote == null);
+		return quote;
+	}
+}

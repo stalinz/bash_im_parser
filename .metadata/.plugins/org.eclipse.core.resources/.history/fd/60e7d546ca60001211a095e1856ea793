@@ -1,0 +1,11 @@
+package quoter;
+
+public class BashParser {
+
+	private static String BASE_URL_TO_QUOTE = "http://bash.im/quote/";
+
+	public static String parseQuote(int num) {
+		String result = null;
+		return result;
+	}
+}
